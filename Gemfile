@@ -2,6 +2,6 @@
 
 source "https://rubygems.org"
 
-gem "no-style-please"
-gem "github-pages", "~> 228", group: :jekyll_plugins
+gem "github-pages", group: :jekyll_plugins
+
 # gem "rails"
