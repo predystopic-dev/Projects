@@ -6,16 +6,17 @@ heading: List of Projects
 
 # {{ page.heading }}
 
-Content is written in [Markdown](https://learnxinyminutes.com/docs/markdown/).
-*If I want I can Do this* 
-Plain text format allows you to focus on your **content**.
-
-
 {% for repo in site.github.public_repositories %}
 
 {% if repo.fork == false %}
 
+{% if repo.name == "Projects" %}
+## [{{ repo.name }}]({{ repo.html_url }}) <- You're here
+{% endif %}
+
+{% unless repo.name == "Projects" %}
 ## [{{ repo.name }}]({{ repo.html_url }})
+{% endunless %}
 
 {{ repo.description }}
 
