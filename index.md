@@ -12,10 +12,12 @@ heading: List of Projects
 
 {% if repo.name == "Projects" %}
 ## [{{ repo.name }}]({{ repo.html_url }}) <- You're here
+[Blogpost](./blogs/{{ repo.name }})
 {% endif %}
 
 {% unless repo.name == "Projects" %}
 ## [{{ repo.name }}]({{ repo.html_url }})
+[Blogpost](./blogs/{{ repo.name }})
 {% endunless %}
 
 {{ repo.description }}
