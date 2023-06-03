@@ -92,15 +92,15 @@ hr { height: 0; border: 0; border-bottom: 1px dashed #b5e853; color: #b5e853; }
 
 .btn .icon { display: inline-block; width: 16px; height: 16px; margin: 1px 8px 0 0; float: left; }
 
-.btn-github .icon { opacity: 0.6; background: url("../images/blacktocat.png") 0 0 no-repeat; }
+.btn-github .icon { opacity: 1; background: url("../images/github-mark-white.svg") 0 0 no-repeat; background-size: 16px 16px; }
 
-.btn-linkedin .icon { opacity: 0.6; background: url("../images/linkedin.png") 0 0 no-repeat; }
+.btn-linkedin .icon { opacity: 1; background: url("../images/linkedin.png") 0 0 no-repeat; }
 
-.btn-mastodon .icon { opacity: 0.6; background: url("../images/linkedin.png") 0 0 no-repeat; }
+.btn-mastodon .icon { opacity: 1; background: url("../images/mastodon.svg") 0 0 no-repeat; background-size: 16px 16px; }
 
-.btn-matrix .icon { opacity: 0.6; background: url("../images/linkedin.png") 0 0 no-repeat; }
+.btn-matrix .icon { opacity: 1; background: url("../images/element.svg") 0 0 no-repeat; background-size: 16px 16px; }
 
-.btn-portfolio .icon { opacity: 0.6; background: url("../images/linkedin.png") 0 0 no-repeat; }
+.btn-portfolio .icon { opacity: 1; background: url("../images/b376d5.png") 0 0 no-repeat; }
 
 
 
