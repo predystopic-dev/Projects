@@ -1,9 +1,10 @@
 ---
-title: All Projects
+title: List of Projects
 layout: default
+heading: List of Projects
 ---
 
-# {{ page.title }}
+# {{ page.heading }}
 
 Content is written in [Markdown](https://learnxinyminutes.com/docs/markdown/).
 *If I want I can Do this* 
