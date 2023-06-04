@@ -2,13 +2,21 @@
 layout: default
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/posts.css?v=' | append: site.github.build_revision | relative_url }}">
 <small>{{ page.date | date: "%-d %B %Y" }}</small>
 <h1>{{ page.title }}</h1>
 
 <p class="view">by {{ page.author | default: site.author }}</p>
 
-{{content}}
-
-{% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{%   if page.tags %}
+  {% for tag in page.tags %}
+    <a class="tag" href="/tag/{{ tag }}/">
+      <i class="fa fa-tag" aria-hidden="true"></i> 
+      {{ tag }} 
+    </a>
+    <script src="https://kit.fontawesome.com/cb792c0850.js" crossorigin="anonymous"></script>
+  {% comment %} <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small> {% endcomment %}
+  {% endfor %}
 {% endif %}
+
+{{content}}
