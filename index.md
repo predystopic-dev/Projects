@@ -11,7 +11,7 @@ heading: List of Projects
 {% if repo.fork == false %}
 
 {% if repo.name == "Projects" %}
-## [{{ repo.name }}]({{ repo.html_url }}) <- You're here
+<h2 style="color: orange"> <a href="{{ repo.html_url }}">{{ repo.name }}</a> <- You're here </h2>
 [Blogpost](./blogs/{{ repo.name }})
 {% endif %}
 

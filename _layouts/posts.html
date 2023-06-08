@@ -8,7 +8,7 @@ layout: default
 
 <p class="view">by {{ page.author | default: site.author }}</p>
 
-{%   if page.tags %}
+{% if page.tags %}
   {% for tag in page.tags %}
     <a class="tag" href="/tag/{{ tag }}/">
       <i class="fa fa-tag" aria-hidden="true"></i> 
