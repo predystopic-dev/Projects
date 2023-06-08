@@ -12,12 +12,12 @@ heading: List of Projects
 
 {% if repo.name == "Projects" %}
 <h2 style="color: orange"> <a href="{{ repo.html_url }}">{{ repo.name }}</a> <- You're here </h2>
-[Blogpost](predystopic-dev.github.io/blogs/{{ repo.name }})
+[Blogpost](https://predystopic-dev.github.io/blogs/{{ repo.name }})
 {% endif %}
 
 {% unless repo.name == "Projects" %}
 ## [{{ repo.name }}]({{ repo.html_url }})
-[Blogpost](predystopic-dev.github.io/blogs/{{ repo.name }})
+[Blogpost](https://predystopic-dev.github.io/blogs/{{ repo.name }})
 {% endunless %}
 
 {{ repo.description }}
