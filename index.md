@@ -30,6 +30,8 @@ Last updated: {{ repo.pushed_at | date_to_string }}
 
 {% endfor %}
 
+<br><br><br>
+<hr>
 <h1><center>Contact me</center></h1>
 
 <div style="align-content=left;" id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/c986acdbddded0d5ecf7542d04ea2986?embedded=1"></div>
