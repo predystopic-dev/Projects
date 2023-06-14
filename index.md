@@ -17,7 +17,7 @@ heading: List of Projects
 
 {% unless repo.name == "Projects" %}
 ## [{{ repo.name }}]({{ repo.html_url }})
-[Blogpost](https://predystopic-dev.github.io/blogs/{{ repo.name }})
+[Blogpost](https://predystopic-dev.github.io/blogs/posts/{{ repo.name }})
 {% endunless %}
 
 {{ repo.description }}
