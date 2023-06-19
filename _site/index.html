@@ -4,8 +4,9 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/style.css?v=b82fb7ccf0596960090c2a6e70b1065f59a52a72">
-    <link rel="stylesheet" href="/assets/css/main.css?v=b82fb7ccf0596960090c2a6e70b1065f59a52a72">
+    <link rel="stylesheet" href="/assets/css/style.css?v=62cabe8ac643655bb9f3f7e36f33f80c60f023d7">
+    <link rel="stylesheet" href="/assets/css/main.css?v=62cabe8ac643655bb9f3f7e36f33f80c60f023d7">
+    <script type="text/javascript" src="/assets/js/script.js" ></script>
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
 <!-- Setup theme-color -->
@@ -31,37 +32,52 @@
 <meta name="generator" content="Jekyll v3.9.3" />
 <meta property="og:title" content="List of Projects" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="My portfolio-like pages to list all the projects." />
-<meta property="og:description" content="My portfolio-like pages to list all the projects." />
-<link rel="canonical" href="http://localhost:4001/" />
-<meta property="og:url" content="http://localhost:4001/" />
+<meta name="description" content="My portfolio-like page to list all the projects." />
+<meta property="og:description" content="My portfolio-like page to list all the projects." />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="Projects_Portfolio" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="List of Projects" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"My portfolio-like pages to list all the projects.","headline":"List of Projects","name":"Projects_Portfolio","url":"http://localhost:4001/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","description":"My portfolio-like page to list all the projects.","headline":"List of Projects","name":"Projects_Portfolio","url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 
   </head>
 
   <body>
-
+    
     <header>
+    <!-- <div class="svg_text_container">
+      
+      <p class="svg_text">This is some text.</p>
+        
+        </svg>
+      </div> -->
+
       <div class="container">
         <a id="a-title" href="/">
-          <h1> .-. --- ... . -... ..- -.. </h1>
+          <h1> .-. --- ... . -... ..- -.. </h1> 
         </a>
         <br>
+        <div class="svg_text_container">
+        <p class="svg_text">
         <h2> Hi, I made this to showcase all my side projects.
           I've also written blog posts on most of these projects to explain why and how I made them. <br>
           I also post short stories and poems on my blog (sometimes even my own!!) So visit there if you're interested.
-
         </h2>
-
+        </p>
+          <div class="brighten" id="brighten-image" onmouseenter="onMouseOverImage()" onmouseleave="onMouseOutImage()">
+            <svg width="200" height="200">
+              <image xlink:href="favicon/favicon_big.png" width="200" height="200" />
+            </svg>
+          </div>
+        </div>
         <section id="downloads">
           
-          <a href="https://github.com/predystopic-dev/Projects" class="btn btn-github"><span class="icon"></span>Github</a>
+          <a href="https://github.com/predystopic-dev" class="btn btn-github"><span class="icon"></span>Github</a>
+          <a href="https://predystopic-dev.github.io/blogs" class="btn btn-blog"><span class="icon"></span>Blog</a>
           
 
         </section>
@@ -73,16 +89,16 @@
         <h1 id="list-of-projects">List of Projects</h1>
 
 <h2 id="blogs"><a href="https://github.com/predystopic-dev/blogs">blogs</a></h2>
-<p><a href="https://predystopic-dev.github.io/blogs/blogs">Blogpost</a></p>
+<p><a href="https://predystopic-dev.github.io/blogs/posts/blogs">Blogpost</a></p>
 
 <p>My blog page, made with Jekyll</p>
 
 <p>Language: CSS</p>
 
-<p>Last updated: 08 Jun 2023</p>
+<p>Last updated: 15 Jun 2023</p>
 
 <h2 id="chip-8"><a href="https://github.com/predystopic-dev/Chip-8">Chip-8</a></h2>
-<p><a href="https://predystopic-dev.github.io/blogs/Chip-8">Blogpost</a></p>
+<p><a href="https://predystopic-dev.github.io/blogs/posts/Chip-8">Blogpost</a></p>
 
 <p>Implementation Chip-8 Interpreter/Emulator</p>
 
@@ -91,7 +107,7 @@
 <p>Last updated: 30 May 2023</p>
 
 <h2 id="cricanalyzer"><a href="https://github.com/predystopic-dev/CricAnalyzer">CricAnalyzer</a></h2>
-<p><a href="https://predystopic-dev.github.io/blogs/CricAnalyzer">Blogpost</a></p>
+<p><a href="https://predystopic-dev.github.io/blogs/posts/CricAnalyzer">Blogpost</a></p>
 
 <p>Scrapes data from cricinfo and use custom parameters to visualize or analyze it.</p>
 
@@ -100,31 +116,62 @@
 <p>Last updated: 16 Feb 2023</p>
 
 <h2 id="news-feeder"><a href="https://github.com/predystopic-dev/News-Feeder">News-Feeder</a></h2>
-<p><a href="https://predystopic-dev.github.io/blogs/News-Feeder">Blogpost</a></p>
+<p><a href="https://predystopic-dev.github.io/blogs/posts/News-Feeder">Blogpost</a></p>
 
-<p>News aggregator website.</p>
+<p>News aggregator website with Bias checker</p>
 
 <p>Language: Python</p>
 
 <p>Last updated: 11 May 2023</p>
 
-<h2 style="color: orange"> <a href="https://github.com/predystopic-dev/Projects">Projects</a> &lt;- You're here </h2>
-<p><a href="predystopic-dev.github.io/blogs/Projects">Blogpost</a></p>
+<h2 id="predystopic-dev"><a href="https://github.com/predystopic-dev/predystopic-dev">predystopic-dev</a></h2>
+<p><a href="https://predystopic-dev.github.io/blogs/posts/predystopic-dev">Blogpost</a></p>
 
-<p>My portfolio-like pages to list all the projects.</p>
+<p>Language:</p>
+
+<p>Last updated: 14 Jun 2023</p>
+
+<h2 style="color: orange"> <a href="https://github.com/predystopic-dev/Projects">Projects</a> &lt;- You're here </h2>
+<p><a href="https://predystopic-dev.github.io/blogs/Projects">Blogpost</a></p>
+
+<p>My portfolio-like page to list all the projects.</p>
 
 <p>Language: HTML</p>
 
-<p>Last updated: 08 Jun 2023</p>
+<p>Last updated: 15 Jun 2023</p>
 
 <h2 id="sentiment_analysis"><a href="https://github.com/predystopic-dev/Sentiment_Analysis">Sentiment_Analysis</a></h2>
-<p><a href="https://predystopic-dev.github.io/blogs/Sentiment_Analysis">Blogpost</a></p>
+<p><a href="https://predystopic-dev.github.io/blogs/posts/Sentiment_Analysis">Blogpost</a></p>
 
 <p>Using tweepy api to fetch tweets then using a Sentiment analyis model on the data.</p>
 
 <p>Language: Python</p>
 
 <p>Last updated: 22 Oct 2022</p>
+
+<p><br /><br /><br /></p>
+<hr />
+
+<h1><center>Contact me</center></h1>
+
+<div style="align-content=left;" id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/c986acdbddded0d5ecf7542d04ea2986?embedded=1"></div>
+
+<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+
+<script type="text/javascript" src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
+
+<!-- Get notified when the form is submitted, add your own code below: -->
+<script>
+const formkeepEmbed = document.querySelector('#formkeep-embed')
+
+formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {
+  console.log('Submitting form...')
+})
+
+formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
+  console.log('Submitted form...')
+})
+</script>
 
 <!--
 You can use HTML elements in Markdown, such as the comment element, and they won't

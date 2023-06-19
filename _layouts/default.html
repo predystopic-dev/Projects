@@ -6,31 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/main.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script type="text/javascript" src="/assets/js/script.js" ></script>
     {% include head-custom.html %}
 
 {% seo %}
   </head>
 
   <body>
-
+    
     <header>
+    <!-- <div class="svg_text_container">
+      
+      <p class="svg_text">This is some text.</p>
+        
+        </svg>
+      </div> -->
+
       <div class="container">
         <a id="a-title" href="{{ '/' | relative_url }}">
-          <h1> .-. --- ... . -... ..- -.. </h1>
+          <h1> .-. --- ... . -... ..- -.. </h1> 
         </a>
         <br>
+        <div class="svg_text_container">
+        <p class="svg_text">
         <h2> Hi, I made this to showcase all my side projects.
           I've also written blog posts on most of these projects to explain why and how I made them. <br>
           I also post short stories and poems on my blog (sometimes even my own!!) So visit there if you're interested.
-
         </h2>
-
+        </p>
+          <div class="brighten" id="brighten-image" onmouseenter="onMouseOverImage()" onmouseleave="onMouseOutImage()">
+            <svg width="200" height="200">
+              <image xlink:href="favicon/favicon_big.png" width="200" height="200" />
+            </svg>
+          </div>
+        </div>
         <section id="downloads">
           {% if site.show_downloads %}
             <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
             <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
           {% endif %}
-          <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>Github</a>
+          <a href="https://github.com/predystopic-dev" class="btn btn-github"><span class="icon"></span>Github</a>
+          <a href="https://predystopic-dev.github.io/blogs" class="btn btn-blog"><span class="icon"></span>Blog</a>
           {% comment %} <a href="{{ site.github.repository_url }}" class="btn btn-blog"><span class="icon"></span>Blog</a>
           <a href="{{ site.github.repository_url }}" class="btn btn-linkedin"><span class="icon"></span>Linkedin</a>
           <a href="{{ site.github.repository_url }}" class="btn btn-mastodon"><span class="icon"></span>Mastodon</a>

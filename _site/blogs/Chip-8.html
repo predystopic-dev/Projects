@@ -4,8 +4,9 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/style.css?v=b82fb7ccf0596960090c2a6e70b1065f59a52a72">
-    <link rel="stylesheet" href="/assets/css/main.css?v=b82fb7ccf0596960090c2a6e70b1065f59a52a72">
+    <link rel="stylesheet" href="/assets/css/style.css?v=62cabe8ac643655bb9f3f7e36f33f80c60f023d7">
+    <link rel="stylesheet" href="/assets/css/main.css?v=62cabe8ac643655bb9f3f7e36f33f80c60f023d7">
+    <script type="text/javascript" src="/assets/js/script.js" ></script>
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
 <!-- Setup theme-color -->
@@ -32,37 +33,52 @@
 <meta property="og:title" content="Chip-8 implementation in C++" />
 <meta name="author" content="Dev" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="My portfolio-like pages to list all the projects." />
-<meta property="og:description" content="My portfolio-like pages to list all the projects." />
-<link rel="canonical" href="http://localhost:4001/blogs/Chip-8.html" />
-<meta property="og:url" content="http://localhost:4001/blogs/Chip-8.html" />
+<meta name="description" content="My portfolio-like page to list all the projects." />
+<meta property="og:description" content="My portfolio-like page to list all the projects." />
+<link rel="canonical" href="http://localhost:4000/blogs/Chip-8.html" />
+<meta property="og:url" content="http://localhost:4000/blogs/Chip-8.html" />
 <meta property="og:site_name" content="Projects_Portfolio" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Chip-8 implementation in C++" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Dev"},"description":"My portfolio-like pages to list all the projects.","headline":"Chip-8 implementation in C++","url":"http://localhost:4001/blogs/Chip-8.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Dev"},"description":"My portfolio-like page to list all the projects.","headline":"Chip-8 implementation in C++","url":"http://localhost:4000/blogs/Chip-8.html"}</script>
 <!-- End Jekyll SEO tag -->
 
   </head>
 
   <body>
-
+    
     <header>
+    <!-- <div class="svg_text_container">
+      
+      <p class="svg_text">This is some text.</p>
+        
+        </svg>
+      </div> -->
+
       <div class="container">
         <a id="a-title" href="/">
-          <h1> .-. --- ... . -... ..- -.. </h1>
+          <h1> .-. --- ... . -... ..- -.. </h1> 
         </a>
         <br>
+        <div class="svg_text_container">
+        <p class="svg_text">
         <h2> Hi, I made this to showcase all my side projects.
           I've also written blog posts on most of these projects to explain why and how I made them. <br>
           I also post short stories and poems on my blog (sometimes even my own!!) So visit there if you're interested.
-
         </h2>
-
+        </p>
+          <div class="brighten" id="brighten-image" onmouseenter="onMouseOverImage()" onmouseleave="onMouseOutImage()">
+            <svg width="200" height="200">
+              <image xlink:href="favicon/favicon_big.png" width="200" height="200" />
+            </svg>
+          </div>
+        </div>
         <section id="downloads">
           
-          <a href="https://github.com/predystopic-dev/Projects" class="btn btn-github"><span class="icon"></span>Github</a>
+          <a href="https://github.com/predystopic-dev" class="btn btn-github"><span class="icon"></span>Github</a>
+          <a href="https://predystopic-dev.github.io/blogs" class="btn btn-blog"><span class="icon"></span>Blog</a>
           
 
         </section>
@@ -71,7 +87,7 @@
 
     <div class="container">
       <section id="main_content">
-        <link rel="stylesheet" href="/assets/css/posts.css?v=b82fb7ccf0596960090c2a6e70b1065f59a52a72">
+        <link rel="stylesheet" href="/assets/css/posts.css?v=62cabe8ac643655bb9f3f7e36f33f80c60f023d7">
 <small></small>
 <h1>Chip-8 implementation in C++</h1>
 
